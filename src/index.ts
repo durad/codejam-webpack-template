@@ -1,0 +1,16 @@
+
+import { sortBy, sortedIndexBy } from 'lodash-es';
+import { BigNumber } from './../node_modules/bignumber.js/bignumber';
+import { readLine } from './read-line';
+
+async function main() {
+
+  const T = parseInt(await readLine());
+  for (let ti = 0; ti < T; ti++) {
+    let [N] = (await readLine()).split(' ').map(x => parseInt(x));
+
+    console.log(`Case #${ti + 1}: ${N}`);
+  }
+}
+
+main().catch(console.error);
