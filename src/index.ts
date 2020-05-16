@@ -3,6 +3,9 @@ import { sortBy, sortedIndexBy } from 'lodash-es';
 import { BigNumber } from './../node_modules/bignumber.js/bignumber';
 import { readLine } from './read-line';
 
+// import Fraction from '../node_modules/fraction.js/fraction';
+// /// <reference path="../node_modules/fraction.js/fraction.d.ts" />
+
 async function main() {
 
   const T = parseInt(await readLine());
