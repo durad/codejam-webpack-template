@@ -8,7 +8,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "bignumber.js": "7",
     "fraction.js": "^4.0.12",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "nodemon": "^2.0.3",
     "terser-webpack-plugin": "^2.3.6",
     "ts-loader": "^7.0.1",
